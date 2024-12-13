@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfcf4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header, .footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .recipe-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #4CAF50;
+  }
+  
+  .recipe-img {
+    width: 10%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .info-bar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .section-title {
+    font-size: 1.8em;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .ingredients, .instructions {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-size: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .ingredient-item, .instruction-step {
+    width: calc(50% - 15px);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ingredient-item img, .instruction-step img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .footer {
+    font-size: 0.9em;
+    color: #999;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfcf4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header, .footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .recipe-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #4CAF50;
+  }
+  
+  .recipe-img {
+    width: 10%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .info-bar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .section-title {
+    font-size: 1.8em;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .ingredients, .instructions {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-size: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .ingredient-item, .instruction-step {
+    width: calc(50% - 15px);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ingredient-item img, .instruction-step img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .footer {
+    font-size: 0.9em;
+    color: #999;
+  }
+  </style>
+</head>
+<body>
+  <div class="recipe-container">
+    <div class="header">
+      <h1 class="recipe-title">Delicious Pasta Primavera</h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh1-gMTTOl8nnV1o8vl5m1xLKmtO9qrieOYQ&s" alt="Pasta Primavera" class="recipe-img">
+      <div class="info-bar">
+        <div>Prep Time: 15 mins</div>
+        <div>Cook Time: 20 mins</div>
+        <div>Servings: 4</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 class="section-title">Ingredients</h2>
+      <div class="ingredients">
+        <div class="ingredient-item">
+          <img src="https://images.squarespace-cdn.com/content/v1/57d57a87e6f2e1b237bebe12/1709229624780-TUZREWJ1H9116BCAXFFM/Screen+Shot+2024-02-29+at+12.59.36+PM.png?format=1500w" alt="Pasta">
+          <span>1 lb pasta (any type)</span>
+        </div>
+        <div class="ingredient-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgqqFLChMOprIL_NswhocUDPrjxCIakFUCPg&s" alt="Cherry Tomatoes">
+          <span>2 cups cherry tomatoes, halved</span>
+        </div>
+        <div class="ingredient-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbbjZqIoGLDHkXhRP_ODgdw5w7cvhQe8sYw&s" alt="Bell Pepper">
+          <span>1 bell pepper, chopped</span>
+        </div>
+        <div class="ingredient-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ5X8NoBYIrjIlNHZb8WIxoFAIVkfAuWpwDA&s" alt="Zucchini">
+          <span>1 zucchini, sliced</span>
+        </div>
+        <div class="ingredient-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1-n72xIfqsXlOPSL67VAod06l4ChhzYKfg&s" alt="Olive Oil">
+          <span>2 tbsp olive oil</span>
+        </div>
+        <div class="ingredient-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_2-K7HnUNzCuc7thZvrug-ETjqcgbXNdjg&s" alt="Salt and Pepper">
+          <span>Salt and pepper, to taste</span>
+        </div>
+      </div>
+
+      <h2 class="section-title">Instructions</h2>
+      <div class="instructions">
+        <div class="instruction-step">
+          <img src="https://feelgoodfoodie.net/wp-content/uploads/2020/06/how-to-cook-pasta-6.jpg" alt="Boil Pasta">
+          <span>Boil pasta according to package instructions.</span>
+        </div>
+        <div class="instruction-step">
+          <img src="https://www.budgetbytes.com/wp-content/uploads/2021/02/Simple-Saute%CC%81ed-Vegetables-side.jpg" alt="Sauté Vegetables">
+          <span>In a skillet, heat olive oil and sauté vegetables.</span>
+        </div>
+        <div class="instruction-step">
+          <img src="https://i.ytimg.com/vi/TW1hwAzkZWo/maxresdefault.jpg" alt="Combine and Season">
+          <span>Combine pasta and vegetables, season with salt and pepper.</span>
+        </div>
+        <div class="instruction-step">
+          <img src="https://www.southernliving.com/thmb/cALZpfQNfQ0da6F3gadPy80JbxM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Chicken_Broccoli_Baked_Ziti_0005-S-1-2000-a208a3b0384b4921b0d5614dbc8e81c4.jpg" alt="Serve">
+          <span>Serve warm and enjoy!</span>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="footer">
+      <p>&copy; 2024 Recipe Hub.</p>
+    </div>
+  </div>
+</body>
+</html>
